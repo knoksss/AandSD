@@ -2,4 +2,4 @@
 ## Китаева Дарья. М8О-102БВ-25.
 
 Лабораторные работы:
-[Лабораторная работа №1](./lab1_tree/README.md)
+- [Лабораторная работа №1](https://github.com/knoksss/AandSD/tree/main/lab1_trees)

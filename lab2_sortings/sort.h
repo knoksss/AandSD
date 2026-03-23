@@ -26,7 +26,7 @@ int binary_search(Table* t, char* word, int number);
 void print_table(Table* t);
 Table* create_table(void);
 int read_file(char* filename, Table* t);
-void clear_table(struct Table* t);
+void clear_table(Table* t);
 
 
 #endif // TREES_H

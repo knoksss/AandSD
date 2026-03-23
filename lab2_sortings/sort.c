@@ -59,7 +59,7 @@ Table* create_table(void) {
 }
 
 
-void clear_table(struct Table* t) {
+void clear_table(Table* t) {
     for (int i = 0; i < t->size; i++) {
         free(t->array[i]->str_part);
         free(t->array[i]->data);

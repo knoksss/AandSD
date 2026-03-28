@@ -1,4 +1,3 @@
-
 #include "reverse_polish.h"
 #include <stdio.h>
 #include <string.h>

@@ -5,10 +5,12 @@
 #include "reverse_polish.h"
 #include "stack.h"
 
+bool validate_expression_my_func(const char* expr);
+
 
 int priority(char op) {
-    if (op == '*') return 2;
-    if (op == '-') return 1;
+    if (op == '*' || op == '/') return 2;
+    if (op == '-' || op == '+') return 1;
     return 0;
 }
 
@@ -77,7 +79,7 @@ void reverse_polish(char *line, char *output) {
             i++;
         }
         // если оператор
-        else if (line[i] == '*' || line[i] == '-') {
+        else if (line[i] == '*' || line[i] == '-' || line[i] == '+' || line[i] == '/') {
             char cur = line[i];
             
             while (!is_empty(&s) && peek(&s)->operator != '(' && 
@@ -134,7 +136,7 @@ Node* build_tree(char *rpn) {
             Node* n = create_number(atoi(num));
             push(&tree_s, n);
         }
-        else if (rpn[i] == '*' || rpn[i] == '-') {
+        else if (rpn[i] == '*' || rpn[i] == '-' || rpn[i] == '+' || rpn[i] == '/') {
             char op = rpn[i];
             
             Node* right = pop(&tree_s);
@@ -194,8 +196,14 @@ int calculate(Node* root) {
     if (root->operator == '*') {
         return left * right;
     }
-    else { // '-'
+    else if (root->operator == '/') {
+        return left / right;
+    }
+    else if (root->operator == '-') {
         return left - right;
+    }
+    else { // '+'
+        return left + right;
     }
 }
 
@@ -204,10 +212,13 @@ void tree_to_string(Node* root, char* str, int* idx) {
     if (root == NULL) return;
     
     if (root->type == 'n') {
-        char num[10];
-        sprintf(num, "%d", root->data);
-        for (int i = 0; num[i] != '\0'; i++) {
-            str[(*idx)++] = num[i];
+        char *num = (char*)malloc(32 * sizeof(char));
+        if (num) {
+            sprintf(num, "%d", root->data);
+            for (int i = 0; num[i] != '\0'; i++) {
+                str[(*idx)++] = num[i];
+            }
+            free(num);
         }
     }
     else {
@@ -221,10 +232,75 @@ void tree_to_string(Node* root, char* str, int* idx) {
     }
 }
 
-
 void free_tree(Node* root) {
     if (root == NULL) return;
     free_tree(root->left);
     free_tree(root->right);
     free(root);
+}
+
+
+void my_variant_func(char *rpn){
+    if (!validate_expression_my_func(rpn)){
+        printf("This algorithm cannot be applied");
+        return;
+    }
+
+    Stack s;
+    init(&s);
+    int i = 0;
+    char *num_str = NULL;
+    int num_length;
+    
+    while (rpn[i] != '\0') {
+        if (isalnum(rpn[i])) {
+            char *num_start = &rpn[i];
+            
+            while (isalnum(rpn[i])) {
+                i++;
+            }
+            num_length = i - (num_start - rpn);
+            
+            num_str = (char*)malloc(num_length + 1);
+            if (num_str == NULL) {
+                printf("Memory allocation error");
+                return;
+            }
+            
+            strncpy(num_str, num_start, num_length);
+            num_str[num_length] = '\0';
+            
+            int num = atoi(num_str);
+            Node* num_node = create_number(num);
+            
+            free(num_str);
+            num_str = NULL;
+            
+            push(&s, num_node);
+        }
+        
+        else{
+            i++;
+            continue;
+        }
+    }
+
+    Node* n1 = pop(&s);
+    Node* n2 = pop(&s);
+    Node* n3 = pop(&s);
+    
+    int num1 = n1 ? n1->data : 0;
+    int num2 = n2 ? n2->data : 0;
+    int num3 = n3 ? n3->data : 0;
+
+    printf("Func result: %d*%d - %d*%d", num3, num2, num3, num1);
+
+    if (n1) free(n1);
+    if (n2) free(n2);
+    if (n3) free(n3);
+    
+    while (!is_empty(&s)) {
+        Node* node = pop(&s);
+        if (node) free(node);
+    }
 }

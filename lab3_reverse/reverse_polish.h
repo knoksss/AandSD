@@ -15,6 +15,7 @@ void polish_notation(char *rpn);
 int calculate(Node* root);
 void tree_to_string(Node* root, char* str, int* idx);
 void free_tree(Node* root);
+void my_variant_func(char *rpn);
 
 
 #endif //REVERSE_POLISH_H

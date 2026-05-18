@@ -1,0 +1,150 @@
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\dkita\AandSD\lab5_graphs\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/tmp/googlebenchmark-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\BD7330DDF0A10F14BA1D2CF681FBD2C6\GOOGLEBENCHMARK-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\39A20DA9480D339D22699E44A6957670\GOOGLEBENCHMARK-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/CMakeFiles/Debug/googlebenchmark-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/Debug/googlebenchmark-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\CEE802A2DDC9D30A267853CF6AF0A70C\GOOGLEBENCHMARK-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild -BC:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild --check-stamp-file C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

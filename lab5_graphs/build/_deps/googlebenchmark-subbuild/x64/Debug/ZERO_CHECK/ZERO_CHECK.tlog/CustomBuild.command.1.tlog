@@ -1,0 +1,10 @@
+^C:\USERS\DKITA\AANDSD\LAB5_GRAPHS\BUILD\_DEPS\GOOGLEBENCHMARK-SUBBUILD\CMAKEFILES\CEE802A2DDC9D30A267853CF6AF0A70C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild -BC:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-subbuild/googlebenchmark-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

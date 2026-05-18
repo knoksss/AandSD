@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/dkita/AandSD/lab5_graphs/build/cmake_install.cmake",
+		"C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-build/cmake_install.cmake",
+		"C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

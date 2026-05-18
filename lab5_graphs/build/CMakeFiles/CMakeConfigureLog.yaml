@@ -1,0 +1,2143 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:24.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.70
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link"
+      - "C:/MinGW/bin/mingw32-make.exe/lld-link.com"
+      - "C:/MinGW/bin/mingw32-make.exe/lld-link.exe"
+      - "C:/MinGW/bin/mingw32-make.exe/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Python/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/mt.com"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/mt.exe"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/cursor/resources/app/bin/mt.com"
+      - "C:/Program Files/cursor/resources/app/bin/mt.exe"
+      - "C:/Program Files/cursor/resources/app/bin/mt"
+      - "C:/Program Files (x86)/GnuWin32/bin/mt.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/mt.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/mt"
+      - "C:/MinGW/bin/mingw32-make.exe/mt.com"
+      - "C:/MinGW/bin/mingw32-make.exe/mt.exe"
+      - "C:/MinGW/bin/mingw32-make.exe/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/mt.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/mt.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/mt"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/mt.com"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/mt"
+      - "C:/Users/dkita/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/dkita/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/dkita/AppData/Local/Python/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:25.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.71
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link"
+      - "C:/MinGW/bin/mingw32-make.exe/lld-link.com"
+      - "C:/MinGW/bin/mingw32-make.exe/lld-link.exe"
+      - "C:/MinGW/bin/mingw32-make.exe/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "C:/Users/dkita/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/dkita/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/dkita/AppData/Local/Python/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/"
+      - "C:/Program Files (x86)/GraphDijkstra/"
+    searched_directories:
+      - "C:/Program Files/cursor/resources/app/resources/helpers/rc.com"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/rc.exe"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/cursor/resources/app/bin/rc.com"
+      - "C:/Program Files/cursor/resources/app/bin/rc.exe"
+      - "C:/Program Files/cursor/resources/app/bin/rc"
+      - "C:/Program Files (x86)/GnuWin32/bin/rc.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/rc.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/rc"
+      - "C:/MinGW/bin/mingw32-make.exe/rc.com"
+      - "C:/MinGW/bin/mingw32-make.exe/rc.exe"
+      - "C:/MinGW/bin/mingw32-make.exe/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/rc.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/rc.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/rc"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/rc.com"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/rc"
+      - "C:/Users/dkita/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/dkita/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/dkita/AppData/Local/Python/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/rc.com"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/rc.exe"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/rc"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/rc.com"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/rc.exe"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/rc"
+      - "C:/Program Files (x86)/GraphDijkstra/rc.com"
+      - "C:/Program Files (x86)/GraphDijkstra/rc.exe"
+      - "C:/Program Files (x86)/GraphDijkstra/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GraphDijkstra"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/GraphDijkstra"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-9roup0"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-9roup0"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-9roup0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8fe69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:26.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9roup0\\cmTC_8fe69.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9roup0\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_8fe69.dir\\Debug\\cmTC_8fe69.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_8fe69.dir\\Debug\\cmTC_8fe69.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_8fe69.dir\\Debug\\cmTC_8fe69.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8fe69.dir\\Debug\\\\" /Fd"cmTC_8fe69.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8fe69.dir\\Debug\\\\" /Fd"cmTC_8fe69.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9roup0\\Debug\\cmTC_8fe69.exe" /INCREMENTAL /ILK:"cmTC_8fe69.dir\\Debug\\cmTC_8fe69.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-9roup0/Debug/cmTC_8fe69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-9roup0/Debug/cmTC_8fe69.lib" /MACHINE:X64  /machine:x64 cmTC_8fe69.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8fe69.vcxproj -> C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9roup0\\Debug\\cmTC_8fe69.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_8fe69.dir\\Debug\\cmTC_8fe69.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_8fe69.dir\\Debug\\cmTC_8fe69.tlog\\cmTC_8fe69.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9roup0\\cmTC_8fe69.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.67
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0enksq"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0enksq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0enksq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1d996.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:27.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0enksq\\cmTC_1d996.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0enksq\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_1d996.dir\\Debug\\cmTC_1d996.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_1d996.dir\\Debug\\cmTC_1d996.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_1d996.dir\\Debug\\cmTC_1d996.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_1d996.dir\\Debug\\\\" /Fd"cmTC_1d996.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_1d996.dir\\Debug\\\\" /Fd"cmTC_1d996.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0enksq\\Debug\\cmTC_1d996.exe" /INCREMENTAL /ILK:"cmTC_1d996.dir\\Debug\\cmTC_1d996.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0enksq/Debug/cmTC_1d996.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0enksq/Debug/cmTC_1d996.lib" /MACHINE:X64  /machine:x64 cmTC_1d996.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1d996.vcxproj -> C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0enksq\\Debug\\cmTC_1d996.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_1d996.dir\\Debug\\cmTC_1d996.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_1d996.dir\\Debug\\cmTC_1d996.tlog\\cmTC_1d996.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0enksq\\cmTC_1d996.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.69
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
+      - "CMakeLists.txt:22 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/cursor/resources/app/resources/helpers/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/MinGW/bin/mingw32-make.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/dkita/AppData/Local/Python/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/"
+      - "C:/Program Files (x86)/GraphDijkstra/"
+      - "C:/Users/dkita/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/cursor/resources/app/resources/helpers/git.cmd.com"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/git.cmd.exe"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/MinGW/bin/git.cmd.com"
+      - "C:/MinGW/bin/git.cmd.exe"
+      - "C:/MinGW/bin/git.cmd"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd"
+      - "C:/Program Files/cursor/resources/app/bin/git.cmd.com"
+      - "C:/Program Files/cursor/resources/app/bin/git.cmd.exe"
+      - "C:/Program Files/cursor/resources/app/bin/git.cmd"
+      - "C:/Program Files (x86)/GnuWin32/bin/git.cmd.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/git.cmd"
+      - "C:/MinGW/bin/mingw32-make.exe/git.cmd.com"
+      - "C:/MinGW/bin/mingw32-make.exe/git.cmd.exe"
+      - "C:/MinGW/bin/mingw32-make.exe/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/Scripts/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python311/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/Scripts/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Python313/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/GitHubDesktop/bin/git.cmd"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/Ollama/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Programs/cursor/resources/app/bin/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Python/bin/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Python/bin/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Python/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/git.cmd.com"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/GraphDijkstra/bin/git.cmd"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/GraphDijkstra/sbin/git.cmd"
+      - "C:/Program Files (x86)/GraphDijkstra/git.cmd.com"
+      - "C:/Program Files (x86)/GraphDijkstra/git.cmd.exe"
+      - "C:/Program Files (x86)/GraphDijkstra/git.cmd"
+      - "C:/Users/dkita/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/dkita/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/dkita/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/git.com"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/git.exe"
+      - "C:/Program Files/cursor/resources/app/resources/helpers/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Program Files\\cursor\\resources\\app\\resources\\helpers"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\MinGW\\bin\\mingw32-make.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\dkita\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\dkita\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\dkita\\AppData\\Local\\Python\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GraphDijkstra"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/GraphDijkstra"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-v47096"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-v47096"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-v47096'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c81b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:38.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\cmTC_c81b0.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_c81b0.dir\\Debug\\cmTC_c81b0.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_c81b0.dir\\Debug\\cmTC_c81b0.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_c81b0.dir\\Debug\\cmTC_c81b0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c81b0.dir\\Debug\\\\" /Fd"cmTC_c81b0.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\src.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c81b0.dir\\Debug\\\\" /Fd"cmTC_c81b0.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\src.c"
+          src.c
+        C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\cmTC_c81b0.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\cmTC_c81b0.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\cmTC_c81b0.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v47096\\cmTC_c81b0.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-wu07jf"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-wu07jf"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-wu07jf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46a94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:39.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\cmTC_46a94.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_46a94.dir\\Debug\\cmTC_46a94.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_46a94.dir\\Debug\\cmTC_46a94.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_46a94.dir\\Debug\\cmTC_46a94.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_46a94.dir\\Debug\\\\" /Fd"cmTC_46a94.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\CheckFunctionExists.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_46a94.dir\\Debug\\\\" /Fd"cmTC_46a94.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\Debug\\cmTC_46a94.exe" /INCREMENTAL /ILK:"cmTC_46a94.dir\\Debug\\cmTC_46a94.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-wu07jf/Debug/cmTC_46a94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-wu07jf/Debug/cmTC_46a94.lib" /MACHINE:X64  /machine:x64 cmTC_46a94.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\cmTC_46a94.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\cmTC_46a94.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\cmTC_46a94.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wu07jf\\cmTC_46a94.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0b5is2"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0b5is2"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0b5is2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_305bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:40.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\cmTC_305bf.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_305bf.dir\\Debug\\cmTC_305bf.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_305bf.dir\\Debug\\cmTC_305bf.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_305bf.dir\\Debug\\cmTC_305bf.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_305bf.dir\\Debug\\\\" /Fd"cmTC_305bf.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\CheckFunctionExists.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_305bf.dir\\Debug\\\\" /Fd"cmTC_305bf.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\Debug\\cmTC_305bf.exe" /INCREMENTAL /ILK:"cmTC_305bf.dir\\Debug\\cmTC_305bf.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0b5is2/Debug/cmTC_305bf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-0b5is2/Debug/cmTC_305bf.lib" /MACHINE:X64  /machine:x64 cmTC_305bf.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\cmTC_305bf.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\cmTC_305bf.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\cmTC_305bf.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b5is2\\cmTC_305bf.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:135 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-fcg5bh"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-fcg5bh"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake/Modules;C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-fcg5bh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feca6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:49.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\cmTC_feca6.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_feca6.dir\\Debug\\cmTC_feca6.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_feca6.dir\\Debug\\cmTC_feca6.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_feca6.dir\\Debug\\cmTC_feca6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=shm_open /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_feca6.dir\\Debug\\\\" /Fd"cmTC_feca6.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\CheckFunctionExists.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=shm_open /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_feca6.dir\\Debug\\\\" /Fd"cmTC_feca6.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\Debug\\cmTC_feca6.exe" /INCREMENTAL /ILK:"cmTC_feca6.dir\\Debug\\cmTC_feca6.ilk" /NOLOGO rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-fcg5bh/Debug/cmTC_feca6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-fcg5bh/Debug/cmTC_feca6.lib" /MACHINE:X64  /machine:x64 cmTC_feca6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "rt.lib" [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\cmTC_feca6.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\cmTC_feca6.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\cmTC_feca6.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "rt.lib" [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fcg5bh\\cmTC_feca6.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:154 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WX"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-ypgn8a"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-ypgn8a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4 /MP"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake/Modules;C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-ypgn8a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8df2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:50.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ypgn8a\\cmTC_8df2c.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ypgn8a\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_8df2c.dir\\Debug\\cmTC_8df2c.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_8df2c.dir\\Debug\\cmTC_8df2c.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_8df2c.dir\\Debug\\cmTC_8df2c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CXX_FLAG_WX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_8df2c.dir\\Debug\\\\" /Fd"cmTC_8df2c.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ypgn8a\\src.cxx"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CXX_FLAG_WX /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_8df2c.dir\\Debug\\\\" /Fd"cmTC_8df2c.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ypgn8a\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ypgn8a\\Debug\\cmTC_8df2c.exe" /INCREMENTAL /ILK:"cmTC_8df2c.dir\\Debug\\cmTC_8df2c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-ypgn8a/Debug/cmTC_8df2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeScratch/TryCompile-ypgn8a/Debug/cmTC_8df2c.lib" /MACHINE:X64  /machine:x64 cmTC_8df2c.dir\\Debug\\src.obj
+          cmTC_8df2c.vcxproj -> C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ypgn8a\\Debug\\cmTC_8df2c.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_8df2c.dir\\Debug\\cmTC_8df2c.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_8df2c.dir\\Debug\\cmTC_8df2c.tlog\\cmTC_8df2c.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ypgn8a\\cmTC_8df2c.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.74
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4 /MP  -WX"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake/Modules;C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b55a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:51.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_b55a6.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b55a6.dir\\Debug\\cmTC_b55a6.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_b55a6.dir\\Debug\\cmTC_b55a6.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b55a6.dir\\Debug\\cmTC_b55a6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b55a6.dir\\Debug\\\\" /Fd"cmTC_b55a6.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\std_regex.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b55a6.dir\\Debug\\\\" /Fd"cmTC_b55a6.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\std_regex.cpp"
+          std_regex.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_b55a6.exe" /INCREMENTAL /ILK:"cmTC_b55a6.dir\\Debug\\cmTC_b55a6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp/Debug/cmTC_b55a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp/Debug/cmTC_b55a6.lib" /MACHINE:X64  /machine:x64 cmTC_b55a6.dir\\Debug\\std_regex.obj
+          cmTC_b55a6.vcxproj -> C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_b55a6.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_b55a6.dir\\Debug\\cmTC_b55a6.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b55a6.dir\\Debug\\cmTC_b55a6.tlog\\cmTC_b55a6.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_b55a6.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.71
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:313 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4 /MP  -WX"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake/Modules;C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4a2ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:53.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_4a2ec.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_4a2ec.dir\\Debug\\cmTC_4a2ec.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_4a2ec.dir\\Debug\\cmTC_4a2ec.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_4a2ec.dir\\Debug\\cmTC_4a2ec.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4a2ec.dir\\Debug\\\\" /Fd"cmTC_4a2ec.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\gnu_posix_regex.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4a2ec.dir\\Debug\\\\" /Fd"cmTC_4a2ec.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\gnu_posix_regex.cpp"
+          gnu_posix_regex.cpp
+        C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\gnu_posix_regex.cpp(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: gnuregex.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_4a2ec.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_4a2ec.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_4a2ec.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\gnu_posix_regex.cpp(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: gnuregex.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_4a2ec.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.65
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:314 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4 /MP  -WX"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake/Modules;C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_79f04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:54.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_79f04.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_79f04.dir\\Debug\\cmTC_79f04.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_79f04.dir\\Debug\\cmTC_79f04.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_79f04.dir\\Debug\\cmTC_79f04.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_79f04.dir\\Debug\\\\" /Fd"cmTC_79f04.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\posix_regex.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_79f04.dir\\Debug\\\\" /Fd"cmTC_79f04.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\posix_regex.cpp"
+          posix_regex.cpp
+        C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\posix_regex.cpp(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: regex.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_79f04.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_79f04.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_79f04.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\posix_regex.cpp(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: regex.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_79f04.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.46
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:323 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4 /MP  -WX"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake/Modules;C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e0157.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:55.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_e0157.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_e0157.dir\\Debug\\cmTC_e0157.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_e0157.dir\\Debug\\cmTC_e0157.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_e0157.dir\\Debug\\cmTC_e0157.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e0157.dir\\Debug\\\\" /Fd"cmTC_e0157.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\steady_clock.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e0157.dir\\Debug\\\\" /Fd"cmTC_e0157.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\steady_clock.cpp"
+          steady_clock.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e0157.exe" /INCREMENTAL /ILK:"cmTC_e0157.dir\\Debug\\cmTC_e0157.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp/Debug/cmTC_e0157.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp/Debug/cmTC_e0157.lib" /MACHINE:X64  /machine:x64 cmTC_e0157.dir\\Debug\\steady_clock.obj
+          cmTC_e0157.vcxproj -> C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e0157.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_e0157.dir\\Debug\\cmTC_e0157.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_e0157.dir\\Debug\\cmTC_e0157.tlog\\cmTC_e0157.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_e0157.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.93
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/googlebenchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/googlebenchmark-src/CMakeLists.txt:327 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4 /MP  -WX"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake/Modules;C:/Users/dkita/AandSD/lab5_graphs/build/_deps/googlebenchmark-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreadedDLL"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/dkita/AandSD/lab5_graphs/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8f4a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 18.05.2026 16:38:56.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_8f4a9.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_8f4a9.dir\\Debug\\cmTC_8f4a9.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_8f4a9.dir\\Debug\\cmTC_8f4a9.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_8f4a9.dir\\Debug\\cmTC_8f4a9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8f4a9.dir\\Debug\\\\" /Fd"cmTC_8f4a9.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\pthread_affinity.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W4 /WX /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8f4a9.dir\\Debug\\\\" /Fd"cmTC_8f4a9.dir\\Debug\\vc143.pdb" /external:W4 /TP /errorReport:queue "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\pthread_affinity.cpp"
+          pthread_affinity.cpp
+        C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\pthread_affinity.cpp(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_8f4a9.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_8f4a9.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_8f4a9.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\_deps\\googlebenchmark-src\\cmake\\pthread_affinity.cpp(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\dkita\\AandSD\\lab5_graphs\\build\\CMakeFiles\\CMakeTmp\\cmTC_8f4a9.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.46
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+...

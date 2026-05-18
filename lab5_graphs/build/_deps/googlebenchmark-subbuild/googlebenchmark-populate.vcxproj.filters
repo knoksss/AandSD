@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\bd7330ddf0a10f14ba1d2cf681fbd2c6\googlebenchmark-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\39a20da9480d339d22699e44a6957670\googlebenchmark-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\cee802a2ddc9d30a267853cf6af0a70c\googlebenchmark-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\dkita\AandSD\lab5_graphs\build\_deps\googlebenchmark-subbuild\CMakeFiles\googlebenchmark-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AE508A8E-DE89-3F5B-9356-6B0FDEE237F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

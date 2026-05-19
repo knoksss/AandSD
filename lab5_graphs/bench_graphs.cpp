@@ -4,7 +4,6 @@ extern "C" {
     #include "graphs.h"
 }
 
-// 1. Маленький граф (100 вершин)
 static void BM_SmallGraph(benchmark::State& state) {
     for (auto _ : state) {
         Graph* g = create_graph(100);
@@ -17,7 +16,6 @@ static void BM_SmallGraph(benchmark::State& state) {
 }
 BENCHMARK(BM_SmallGraph);
 
-// 2. Средний граф (1000 вершин)
 static void BM_MediumGraph(benchmark::State& state) {
     for (auto _ : state) {
         Graph* g = create_graph(1000);
@@ -30,7 +28,6 @@ static void BM_MediumGraph(benchmark::State& state) {
 }
 BENCHMARK(BM_MediumGraph);
 
-// 3. Большой граф (5000 вершин)
 static void BM_LargeGraph(benchmark::State& state) {
     for (auto _ : state) {
         Graph* g = create_graph(5000);
@@ -42,5 +39,4 @@ static void BM_LargeGraph(benchmark::State& state) {
     }
 }
 BENCHMARK(BM_LargeGraph);
-
 BENCHMARK_MAIN();

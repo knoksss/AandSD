@@ -6,13 +6,13 @@ if(MSVC)
     set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 endif()
 
-# Указываем, где искать заголовки
+# указываем, где искать заголовки
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-# Основная программа
+# основная программа
 add_executable(main_app main.c graphs.c)
 
-# ===== GTest =====
+# gtest
 include(FetchContent)
 FetchContent_Declare(
     googletest
@@ -24,7 +24,7 @@ FetchContent_MakeAvailable(googletest)
 add_executable(unit_tests test_graphs.cpp graphs.c)
 target_link_libraries(unit_tests gtest_main)
 
-# ===== Benchmark =====
+# бенчмарки
 set(BENCHMARK_ENABLE_TESTING OFF CACHE BOOL "" FORCE)
 set(BENCHMARK_ENABLE_GTEST_TESTS OFF CACHE BOOL "" FORCE)
 

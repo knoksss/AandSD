@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#define BTREE_KEY_SIZE 16
+#define BTREE_KEY_SIZE 6
 
 typedef struct Node {
     bool leaf;

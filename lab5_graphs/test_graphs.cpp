@@ -4,7 +4,7 @@ extern "C" {
     #include "graphs.h"
 }
 
-// 1. Создание графа
+// создание графа
 TEST(GraphTest, CreateGraph) {
     Graph* g = create_graph(5);
     EXPECT_EQ(g->size, 5);
@@ -14,7 +14,7 @@ TEST(GraphTest, CreateGraph) {
     free_graph(g);
 }
 
-// 2. Добавление рёбер
+// добавление рёбер
 TEST(GraphTest, AddEdge) {
     Graph* g = create_graph(3);
     add_edge(g, 0, 1, 10);
@@ -27,7 +27,7 @@ TEST(GraphTest, AddEdge) {
     free_graph(g);
 }
 
-// 3. Простой путь
+// простой путь
 TEST(DijkstraTest, SimplePath) {
     Graph* g = create_graph(4);
     add_edge(g, 0, 1, 1);
@@ -44,7 +44,7 @@ TEST(DijkstraTest, SimplePath) {
     free_graph(g);
 }
 
-// 4. Недостижимые вершины
+// недостижимые вершины
 TEST(DijkstraTest, Disconnected) {
     Graph* g = create_graph(4);
     add_edge(g, 0, 1, 1);
@@ -60,7 +60,7 @@ TEST(DijkstraTest, Disconnected) {
     free_graph(g);
 }
 
-// 5. Кратчайший путь с выбором
+// кратчайший путь с выбором
 TEST(DijkstraTest, ShortestChoice) {
     Graph* g = create_graph(3);
     add_edge(g, 0, 1, 10);
